@@ -1,0 +1,28 @@
+@import url('./_active/header__lang-link_active_true.css');
+@import url('./_active/header__lang-link_active_false.css');
+
+.header__lang-link {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    color: #fff;
+    margin-right:18px;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: opacity .3s linear;
+}
+
+@media (max-width: 375px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+}
