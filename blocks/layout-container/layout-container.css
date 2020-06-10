@@ -1,6 +1,7 @@
 .layout-container {
-    margin: 0 48px;
-    width: calc(100% - 96px);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 48px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr;
@@ -10,7 +11,7 @@
             column-gap: 18px;
     -ms-grid-rows: (auto)[7];
     grid-template-rows: repeat(7, auto);
-                grid-template-areas:
+                    grid-template-areas:
     'header header header header header header header header header header header header'
     '. lead lead lead lead lead lead lead lead lead lead .'
     '. intro intro intro intro intro intro intro intro intro intro .'
@@ -20,12 +21,12 @@
     'footer footer footer footer footer footer footer footer footer footer footer footer'
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .layout-container {
         -webkit-column-gap: 16px;
            -moz-column-gap: 16px;
                 column-gap: 16px;
-                grid-template-areas:
+                    grid-template-areas:
         'header header header header header header header header header header header header'
         'lead lead lead lead lead lead lead lead lead lead lead lead'
         'intro intro intro intro intro intro intro intro intro intro intro intro'
@@ -36,10 +37,9 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .layout-container {
-        margin: 0 24px;
-        width: calc(100% - 48px);
+        padding: 0 24px;
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr 16px 1fr;
@@ -49,7 +49,7 @@
                 column-gap: 16px;
         -ms-grid-rows: (auto)[7];
         grid-template-rows: repeat(7, auto);
-                grid-template-areas:
+                    grid-template-areas:
         'header header'
         'lead lead'
         'intro intro'
@@ -62,15 +62,16 @@
 
 @media (max-width: 375px) {
     .layout-container {
-        margin: 0 16px;
-        width: calc(100% - 32px);
+        padding: 0 16px;
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: none;
-        grid-template-columns: none;
+        
+        -ms-grid-columns: 100%;
+        
+        grid-template-columns: 100%;
         -ms-grid-rows: (auto)[7];
         grid-template-rows: repeat(7, auto);
-                grid-template-areas:
+                    grid-template-areas:
         'header'
         'lead'
         'intro'

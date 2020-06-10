@@ -7,3 +7,30 @@
     line-height: 1.05;
     color: #fff;
 }
+
+@media (max-width: 1200px) {
+    .lead__title {
+        max-width: calc(100% - 204px);
+    }
+}
+
+@media (max-width: 960px) {
+    .lead__title {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .lead__title {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 375px) {
+    .lead__title {
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}

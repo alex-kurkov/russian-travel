@@ -19,3 +19,11 @@
 @import url('');
 @import url('');
 @import url('');
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 960px) {}
+
+@media (max-width: 760px) {}
+
+@media (max-width: 375px) {}
