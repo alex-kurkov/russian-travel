@@ -1,0 +1,13 @@
+.place__image {
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 375px) {
+    .place__image {
+        width: calc(100% + 32px);
+        margin-left: -16px;
+    }
+}
