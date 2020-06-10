@@ -1,0 +1,11 @@
+.lead__scheme {
+    background-image: url('../../../images/railway-scheme.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: calc(100% - 48px);
+    padding-bottom: 30%;
+    position: absolute;
+    top: 15%;
+    left: 24px;
+    z-index: 2;
+}

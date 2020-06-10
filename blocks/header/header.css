@@ -5,7 +5,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
-    min-height: 52px;
+    min-height: 136px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,18 +16,20 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     grid-area: header;
-    margin: 28px 0 56px 0;
+    padding: 28px 0 56px 0;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
     .header {
-        margin-bottom: 48px;
+        min-height: 128px;
+        padding-bottom: 48px;
     }
 }
 
 @media (max-width: 375px) {     /*испр*/
     .header {
-        margin-top: 16px;
-        min-height: 42px;
+        min-height: 106px;
+        padding-top: 16px;
     }
 }

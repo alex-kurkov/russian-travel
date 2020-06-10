@@ -1,0 +1,8 @@
+.lead__image-container {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    margin-bottom: 8px;
+}
