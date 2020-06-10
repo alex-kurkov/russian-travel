@@ -14,7 +14,7 @@
                     grid-template-areas:
     'header header header header header header header header header header header header'
     '. lead lead lead lead lead lead lead lead lead lead .'
-    '. intro intro intro intro intro intro intro intro intro intro .'
+    '. intro intro intro intro intro intro intro . . . .'
     'photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid'
     '. places places places places places places places places places places .'
     'cover cover cover cover cover cover cover cover cover cover cover cover'
@@ -29,7 +29,7 @@
                     grid-template-areas:
         'header header header header header header header header header header header header'
         'lead lead lead lead lead lead lead lead lead lead lead lead'
-        'intro intro intro intro intro intro intro intro intro intro intro intro'
+        'intro intro intro intro intro intro intro intro intro . . .'
         'photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid'
         'places places places places places places places places places places places places'
         'cover cover cover cover cover cover cover cover cover cover cover cover'
