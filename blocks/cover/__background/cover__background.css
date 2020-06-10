@@ -1,0 +1,44 @@
+.cover__background {
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url('../../../images/transsib.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 0;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cover__background::after {
+    display: block;
+    content: '';
+    background-color: #2A2C2F;
+    opacity: .3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.cover__background:hover::after {
+    opacity: .8;
+    transition: opacity .3s ease;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 960px) {
+    .cover__background {
+        
+    }
+}
+
+@media (max-width: 760px) {}
+
+@media (max-width: 375px) {}

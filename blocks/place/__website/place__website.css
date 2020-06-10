@@ -1,7 +1,10 @@
 .place__website {
     margin: 0;
-    justify-self: start;
-    align-self: end;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
 }
 
 @media (max-width: 375px) {
@@ -9,4 +12,3 @@
         display: none;
     }
 }
-

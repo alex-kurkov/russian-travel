@@ -7,13 +7,40 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: calc(50% - 32px) calc(50% - 8px);
     grid-template-columns: calc(50% - 32px) calc(50% - 8px);
+    -ms-grid-rows: -webkit-min-content 48px -webkit-min-content;
+    -ms-grid-rows: min-content 48px min-content;
+    grid-template-rows: repeat(2, -webkit-min-content);
     grid-template-rows: repeat(2, min-content);
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     row-gap: 48px;
     grid-auto-flow: column;
     margin-bottom: 80px;
+}
+
+.place > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.place > *:nth-child(2) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+.place > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+}
+
+.place > *:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
 }
 
 .place:last-of-type {
@@ -29,8 +56,28 @@
 @media (max-width: 760px) {
     .place {
         margin-bottom: 48px;
+        -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+        -ms-grid-rows: -webkit-min-content 32px -webkit-min-content 32px -webkit-min-content 32px -webkit-min-content;
+        -ms-grid-rows: min-content 32px min-content 32px min-content 32px min-content;
+        grid-template-rows: repeat(4, -webkit-min-content);
         grid-template-rows: repeat(4, min-content);
         row-gap: 32px;
+    }
+    .place > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .place > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .place > *:nth-child(3) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .place > *:nth-child(4) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
     }
 }
