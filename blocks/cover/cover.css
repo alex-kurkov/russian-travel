@@ -3,23 +3,19 @@
 @import url('./__subtitle/cover__subtitle.css');
 
 .cover {
-    grid-area: cover;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative;
 }
 
-
-@media (max-width: 1200px) {}
-
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
     .cover {
         width: calc(100% + 96px);
         margin-left: -48px;
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 960px) {
     .cover {
         width: calc(100% + 48px);
         margin-left: -24px;

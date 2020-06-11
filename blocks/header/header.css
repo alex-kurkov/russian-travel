@@ -5,7 +5,6 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
-    min-height: 136px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -15,21 +14,24 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    grid-area: header;
-    padding: 28px 0 56px 0;
+    padding: 28px 48px 56px 48px;
     box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
     .header {
-        min-height: 128px;
         padding-bottom: 48px;
     }
 }
 
-@media (max-width: 375px) {     /*испр*/
+@media (max-width: 960px) {
     .header {
-        min-height: 106px;
-        padding-top: 16px;
+        padding: 28px 24px 48px 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding: 16px 16px 48px 16px;
     }
 }

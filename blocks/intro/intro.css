@@ -4,7 +4,6 @@
 @import url('./__list-item/intro__list-item.css');
 
 .intro {
-    grid-area: intro;
     padding-top: 92px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;

@@ -1,0 +1,17 @@
+.main-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 48px;
+}
+
+@media (max-width: 960px) {
+    .main-container {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-container {
+        padding: 0 16px;
+    }
+}
