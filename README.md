@@ -1,23 +1,27 @@
-# Проект 3: Путешествие по России
+# **RUSSIA TRAVEL**
+--------------
+assembled and tuned by **Alex Kurkov**,
+_Yandex.Practicum student_
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### **Content**
+---------------------
 
-**Интро**
+Educational site based on personal travel experience across Russia.
+Contains description of several places to see in Russia, including photos and links to outer resources.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+### **Key features**
+---------------------
+* No ads or sponsored content
+* No javascript - css&html only
+* No cookies
+* No tracking/linking of your personal IP address
 
-**Figma**
+### **Amendments to be made soon**
+----------------------------------
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+1. css-animations adding.
+2. _Contact Me_ section pop-up.
+3. multi-language support
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+--------
+[connect me via email](mailto:alexkourkov@yandex.ru "Email")

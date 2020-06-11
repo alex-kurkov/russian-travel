@@ -3,9 +3,9 @@
     font-style:  normal;
     font-weight: 900;
     src: local('Inter-Black'),
-         url('../../vendor/Inter-Black.woff2') format('woff2'),
-         url('../../vendor/Inter-Black.woff') format('woff'),
-         url('../../vendor/Inter-Black.otf') format('opentype');
+         url('../../fonts/Inter-Black.woff2') format('woff2'),
+         url('../../fonts/Inter-Black.woff') format('woff'),
+         url('../../fonts/Inter-Black.otf') format('opentype');
   }
   
   @font-face {
@@ -13,9 +13,9 @@
     font-style:  normal;
     font-weight: 400;
     src: local('Inter-Regular'),
-         url('../../vendor/Inter-Regular.woff2') format('woff2'),
-         url('../../vendor/Inter-Regular.woff') format('woff'),
-         url('../../vendor/Inter-Regular.otf') format('opentype');
+         url('../../fonts/Inter-Regular.woff2') format('woff2'),
+         url('../../fonts/Inter-Regular.woff') format('woff'),
+         url('../../fonts/Inter-Regular.otf') format('opentype');
   }
 
   @font-face {
@@ -23,9 +23,9 @@
     font-style:  normal;
     font-weight: 700;
     src: local('Inter-Bold'),
-         url('../../vendor/Inter-Bold.woff2') format('woff2'),
-         url('../../vendor/Inter-Bold.woff') format('woff'),
-         url('../../vendor/Inter-Bold.otf') format('opentype');
+         url('../../fonts/Inter-Bold.woff2') format('woff2'),
+         url('../../fonts/Inter-Bold.woff') format('woff'),
+         url('../../fonts/Inter-Bold.otf') format('opentype');
   }
 
 .page {
