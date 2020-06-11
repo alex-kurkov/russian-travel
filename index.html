@@ -16,7 +16,7 @@
             <div class="header__logo"></div>
             <div class="header__links">
              <a href="#" class="header__lang-link header__lang-link_active_true">Ru</a>
-             <a href="#" class="header__lang-link header__lang-link_active_false">En</a>
+             <a href="#" class="header__lang-link">En</a>
             </div>
     </header>
         
@@ -24,10 +24,10 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="lead__image-container">
+            <figure class="lead__image-container">
                 <img class="lead__image" src="./images/lead-image.jpg" alt="Фотография, олицетворяющая романтику путешествия в плацкартном вагоне">
                 <div class="lead__scheme"></div>
-            </div>
+            </figure>
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
@@ -51,18 +51,18 @@
         </section>
         <section class="photo-grid">
             <ul class="photo-grid__container">
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
-                <li class="photo-grid__item"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item0.jpg" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-10.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-1.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-2.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-3.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-4.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-5.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-6.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-7.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-8.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item-9.png" alt="Фотография красот России"></li>
+                <li><img class="photo-grid__item" src="./images/photo-grid/__item.png" alt="Фотография красот России"></li>
             </ul>
         </section>
         <section class="places">
@@ -166,14 +166,15 @@
             </a>
         </section>
         <footer class="footer">
-            <nav class="footer__nav">
-                <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-            </nav>
-            <p class="footer__copyright">© 2020. А. Курков / Yandex Praktikum</p>
+            <nav>
+                <ul class="footer__nav">
+                <li class="footer__nav-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+                <li class="footer__nav-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+                <li class="footer__nav-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+                <li class="footer__nav-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+                <li class="footer__nav-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+            </ul></nav>
+            <p class="footer__copyright">&copy; 2020. А. Курков / Yandex Praktikum</p>
         </footer>
     </main>
 </body>

@@ -18,7 +18,7 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 960px) {
     .photo-grid__container {
         -ms-grid-columns: 1fr 16px 1fr;
         grid-template-columns: repeat(2, 1fr);
