@@ -1,5 +1,5 @@
 .header__lang-link_active_true {
-    -webkit-text-decoration: underline 2px;
-            text-decoration: underline 2px;
-    text-underline-position: under;
+    -webkit-text-decoration: underline 2px #fff;
+            text-decoration: underline 2px #fff;
+    border-bottom: solid 2px #fff;
 }
