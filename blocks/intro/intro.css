@@ -7,11 +7,21 @@
     padding-top: 92px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    margin-left: 100px;
+    max-width: 690px;
+}
+
+@media (max-width: 1200px) {
+    .intro {
+    margin-left: 0;
+    }
 }
 
 @media (max-width: 960px) {
     .intro {
     padding-top: 88px;
+    max-width: none;
+    width: 100%;
     }
 }
 
