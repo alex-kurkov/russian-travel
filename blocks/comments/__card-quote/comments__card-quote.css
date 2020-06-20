@@ -1,0 +1,9 @@
+.comments__card-quote {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    margin: 0 0 24px 0;
+    text-align: left;
+}

@@ -1,0 +1,7 @@
+.video__container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+    grid-template-rows: minmax(max-content, 323px);
+}

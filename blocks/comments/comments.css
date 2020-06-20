@@ -1,0 +1,14 @@
+@import url('./__title/comments__title.css');
+@import url('./__subtitle/comments__subtitle.css');
+@import url('./__container/comments__container.css');
+@import url('./__card/comments__card.css');
+@import url('./__card-image/comments__card-image.css');
+@import url('./__card-quote/comments__card-quote.css');
+@import url('./__card-person/comments__card-person.css');
+
+
+.comments {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 102px auto;
+}
