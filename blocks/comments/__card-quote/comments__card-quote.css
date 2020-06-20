@@ -7,3 +7,9 @@
     margin: 0 0 24px 0;
     text-align: left;
 }
+
+@media (max-width: 760px) {
+    .comments__card-quote {
+        text-align: center;
+    }
+}

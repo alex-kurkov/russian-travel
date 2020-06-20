@@ -4,4 +4,25 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 18px;
     grid-template-rows: minmax(max-content, 323px);
+    grid-auto-flow: row;
+}
+
+@media (max-width: 960px) {
+    .video__container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, minmax(min-content, 323px));
+        grid-auto-flow: column;
+    }
+}
+
+@media (max-width: 760px) {
+    .video__container{
+        grid-template-rows: repeat(2, minmax(min-content, 250px));
+    }
+}
+
+@media (max-width: 480px) {
+    .video__container{
+       grid-template-rows: repeat(2, minmax(min-content, 200px));
+    }
 }

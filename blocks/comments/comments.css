@@ -12,3 +12,15 @@
     width: 100%;
     margin: 0 auto 102px auto;
 }
+
+@media (max-width: 760px) {
+    .comments {
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .comments {
+        margin-bottom: 24px;
+    }
+}

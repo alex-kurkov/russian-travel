@@ -5,4 +5,23 @@
     grid-auto-rows: 1fr;
     gap: 20px;
     list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 760px) {
+    .comments__container{
+        max-width: 382px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
+        grid-auto-flow: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .comments__container {
+        max-width: none;
+        width: 100%;
+    }
 }

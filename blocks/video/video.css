@@ -8,3 +8,15 @@
     box-sizing: border-box;
     margin-bottom: 102px;
 }
+
+@media (max-width: 760px) {
+    .video {
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 480px) {
+    .video {
+        margin-bottom: 24px;
+    }
+}
