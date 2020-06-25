@@ -8,18 +8,17 @@
     max-width: 22%;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
     .additional__card {
         width: 47%;
         min-width: none;
         max-width: none;
+        max-height: 100%;
     }
 }
 
 @media (max-width: 760px) {
     .additional__card {
         width: 100%;
-        min-width: none;
-        max-width: none;
     }
 }
