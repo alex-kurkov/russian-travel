@@ -1,0 +1,28 @@
+.additional__subtitle {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0 272px 72px 272px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .additional__subtitle {
+        margin: 0 auto 72px auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .additional__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+@media (max-width: 480px) {
+    .additional__subtitle {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+}

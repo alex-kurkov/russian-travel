@@ -1,0 +1,25 @@
+.additional__card {
+    max-height: 300px;
+    box-sizing: border-box;
+    box-shadow: white 0 0 5px;
+    margin: 0 10px 20px 10px;
+    position: relative;
+    min-width: 234px;
+    max-width: 22%;
+}
+
+@media (max-width: 960px) {
+    .additional__card {
+        width: 47%;
+        min-width: none;
+        max-width: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .additional__card {
+        width: 100%;
+        min-width: none;
+        max-width: none;
+    }
+}

@@ -1,0 +1,29 @@
+.additional__title {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0 192px 48px 192px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .additional__title {
+        margin: 0 auto 48px auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .additional__title {
+        font-size: 42px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .additional__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+}
