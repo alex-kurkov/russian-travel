@@ -1,0 +1,18 @@
+.barentsburg__map-link {
+    display: block;
+    width: 100%;
+    min-height: fit-content;
+    box-sizing: border-box;
+    margin: 0 0 64px 0;
+}
+
+.barentsburg__map-link:hover .barentsburg__map {
+    opacity: .7;
+    transform: opacity .3s linear;
+}
+
+@media (max-width: 760px) {
+    .barentsburg__map-link {
+        margin-bottom: 16px;
+    }
+}

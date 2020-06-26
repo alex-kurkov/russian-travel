@@ -1,0 +1,20 @@
+.barentsburg__description {
+    display: inline-block;
+    max-width: 380px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    margin: 0 0 12px 0;
+    text-align: left;
+    padding-right: 12px;
+}
+
+@media (max-width: 760px) {
+    .barentsburg__description {
+        width: 100%;
+        max-width: none;
+        padding-right: 0;
+    }
+}

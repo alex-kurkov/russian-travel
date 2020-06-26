@@ -1,0 +1,13 @@
+.barentsburg__url-card {
+    display: block;
+    max-width: 380px;
+    margin: 0 0 12px 0;
+    text-align: left;
+}
+
+@media (max-width: 760px) {
+    .barentsburg__url-card {
+        width: 100%;
+        max-width: none;
+    }
+}
