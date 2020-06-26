@@ -4,3 +4,8 @@
     object-fit: cover;
     object-position: center;
 }
+
+.barentsburg__map:hover {
+    opacity: .7;
+    transform: opacity .3s linear;
+}
